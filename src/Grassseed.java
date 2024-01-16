@@ -20,6 +20,7 @@ public class Grassseed {
             sumOfCost += (widthOfLawn * lengthOfLawn)*costPerSquareMeter;
         }
 
+        scanner.close();
         System.out.println(sumOfCost);
     }
 }

@@ -12,6 +12,8 @@ public class Kikiboba {
         int checkB = 0;
         int checkK = 0;
 
+        scanner.close();
+
         for(int i = 0; i<text.length(); i++){
             Character tmp = text.charAt(i);
 

@@ -15,6 +15,7 @@ public class Filip {
 
         int secondNumber = Integer.parseInt(sb.append(scanner.nextInt()).reverse().toString());
 
+        scanner.close();
         System.out.println((firstNumber>secondNumber?firstNumber:secondNumber));
          
     }

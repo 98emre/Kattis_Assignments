@@ -11,6 +11,8 @@ public class Millifaersla {
         int secondFee = scanner.nextInt();
         int thirdFee = scanner.nextInt();
 
+        scanner.close();
+        
         if(firstFee < secondFee && firstFee < thirdFee){
             System.out.println("Monnei");
         }

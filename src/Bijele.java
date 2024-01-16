@@ -20,6 +20,7 @@ public class Bijele {
         for(int i =0; i<6; i++){
             System.out.println(checkPieces[i] - addedPieces[i]);
         }
+
+        scanner.close();
     }
-    
 }

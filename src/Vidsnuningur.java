@@ -10,8 +10,7 @@ public class Vidsnuningur {
 
         String text = new StringBuilder(scanner.nextLine()).reverse().toString();
 
+        scanner.close();
         System.out.println(text);
-
     }
-    
 }

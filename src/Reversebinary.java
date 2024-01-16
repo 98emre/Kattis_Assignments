@@ -38,6 +38,7 @@ public class Reversebinary {
             }
         }
 
+        scanner.close();
         System.out.println(sum);
     }
     

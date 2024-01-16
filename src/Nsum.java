@@ -17,6 +17,7 @@ public class Nsum {
             sum += scanner.nextInt();
         }
 
+        scanner.close();
         System.out.println(sum);
     }
 }

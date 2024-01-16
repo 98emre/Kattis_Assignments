@@ -18,6 +18,7 @@ public class SortTwoNumbers {
             secondNumber = tmp;
         }
         
+        scanner.close();
         System.out.print(firstNumber + " " + secondNumber);
     }
 }

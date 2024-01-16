@@ -25,6 +25,7 @@ public class Monopol {
             }
         }
 
+        scanner.close();
         System.out.println((double) totalWays / totalOutcomes);
     }
 }

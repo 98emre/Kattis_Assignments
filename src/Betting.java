@@ -16,6 +16,8 @@ public class Betting {
 
         double optionTwo = 100.0 / (100.0-procentOptionOne);
 
+        scanner.close();
+
         System.out.println(optionOne);
         System.out.println(optionTwo);
         

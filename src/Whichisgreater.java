@@ -18,5 +18,7 @@ public class Whichisgreater {
         else{
             System.out.println("0");
         }
+
+        scanner.close();
     }
 }

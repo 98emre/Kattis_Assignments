@@ -11,6 +11,8 @@ public class Isithalloween {
         String month = scanner.next();
         int day = scanner.nextInt();
 
+        scanner.close();
+
         if(month.toUpperCase().equals("DEC")){
             if(day == 25){
                 System.out.println("yup");

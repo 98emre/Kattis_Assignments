@@ -13,6 +13,7 @@ public class Zamka {
         int c = scanner.nextInt();
 
 
+        scanner.close();
         System.out.println(findSmallestValue(a, c));
         System.out.println(findLargestValue(b, c));
     }

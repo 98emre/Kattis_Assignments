@@ -2,7 +2,6 @@
 
 // https://open.kattis.com/problems/fyi
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class Fyi {
@@ -26,6 +25,7 @@ public class Fyi {
         else{
             System.out.println("0");
         }
-    }
 
+        scanner.close();
+    }
 }

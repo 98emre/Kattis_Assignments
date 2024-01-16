@@ -17,5 +17,7 @@ public class Twostones {
         else{
             System.out.println("Alice");
         }
+
+        scanner.close();
     }
 }

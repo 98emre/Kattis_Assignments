@@ -18,5 +18,7 @@ public class Addingtrouble {
         else{
             System.out.println("wrong!");
         }
+
+        scanner.close();
     }
 }

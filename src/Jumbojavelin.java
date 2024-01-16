@@ -19,6 +19,7 @@ public class Jumbojavelin {
 
         sum -= numberOfRods-1;
         
+        scanner.close();
         System.out.println(sum);
     }
 }

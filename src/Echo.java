@@ -16,9 +16,8 @@ public class Echo {
             sb.append(word + " ");
         }
 
+        scanner.close();
         System.out.println(sb.toString());
-        
-
     }
 }
 

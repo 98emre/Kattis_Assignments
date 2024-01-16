@@ -14,6 +14,7 @@ public class Ekkidaudi {
         String text1 = firstText[0]+secondText[0];
         String text2 = firstText[1]+secondText[1];
 
+        scanner.close();
         System.out.println(text1 + " " + text2);
     }
 }

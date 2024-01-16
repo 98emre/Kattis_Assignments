@@ -11,6 +11,8 @@ public class Fizzbuzz {
         int x = scanner.nextInt();
         int y = scanner.nextInt();
         int numbers = scanner.nextInt();
+        
+        scanner.close();
 
         for(int i = 1; i<=numbers; i++){
             if(i % x == 0 && i % y == 0){

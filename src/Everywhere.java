@@ -20,6 +20,7 @@ public class Everywhere {
                 uniqueCities.add(scanner.next());
             }
 
+            scanner.close();
             System.out.println(uniqueCities.size());
         }
     }

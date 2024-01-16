@@ -17,6 +17,7 @@ public class Knightpacking {
         else{
             System.out.println("first");
         }
-
+        
+        scanner.close();
     }
 }

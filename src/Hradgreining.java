@@ -9,6 +9,7 @@ public class Hradgreining {
         Scanner scanner = new Scanner(System.in);
 
         String text = scanner.nextLine();
+        scanner.close();
 
         if(text.contains("COV")){
             System.out.println("Veikur!");

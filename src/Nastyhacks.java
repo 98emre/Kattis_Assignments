@@ -19,7 +19,7 @@ public class Nastyhacks {
             testCase(revenue, costOfAdvertise, advertise);
         }
 
-       
+        scanner.close();
     }
 
     private static void testCase(int revenue, int costOfAdvertise, int advertise){

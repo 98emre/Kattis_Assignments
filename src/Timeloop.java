@@ -14,5 +14,7 @@ public class Timeloop {
         for(int i = 1; i<=numberOfLoops; i++){
             System.out.println(i + " Abracadabra");
         }
+
+        scanner.close();
     }
 }

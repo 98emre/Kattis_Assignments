@@ -9,6 +9,7 @@ public class Vedurvindhradi {
 
         System.out.println(getWindLevel(scanner.nextDouble()));
 
+        scanner.close();
     }
 
     private static String getWindLevel(double windSpeed) {

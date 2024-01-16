@@ -38,6 +38,7 @@ public class Knotknowledge {
             }
         }
 
+        scanner.close();
         System.out.println(missingKnot);
     }
 }

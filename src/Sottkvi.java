@@ -22,6 +22,7 @@ public class Sottkvi {
             }
         }
 
+        scanner.close();
         System.out.println(counter);
     }
 }

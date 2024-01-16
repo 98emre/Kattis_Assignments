@@ -18,6 +18,7 @@ public class Findingana {
             }
         }
 
+        scanner.close();
         System.out.println(word);
     }
 }

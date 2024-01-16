@@ -10,7 +10,8 @@ public class Ovissa {
 
         String text = scanner.nextLine();
 
-        System.out.println(text.length());
 
+        scanner.close();
+        System.out.println(text.length());
     }
 }

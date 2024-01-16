@@ -24,6 +24,7 @@ public class Cold {
             }
         }
         
+        scanner.close();
         System.out.println(tempLessThanZero);
     }
     

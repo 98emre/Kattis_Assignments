@@ -23,6 +23,7 @@ public class Vefthjonatjon {
 
         int servers = Math.min(first, Math.min(second, third));
 
+        scanner.close();
         System.out.println(servers);
     }
 }

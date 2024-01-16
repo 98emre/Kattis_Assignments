@@ -18,6 +18,7 @@ public class Qaly {
             sum += period * years;
         }
 
+        scanner.close();
         System.out.println(sum);
     }
 }

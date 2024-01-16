@@ -17,7 +17,8 @@ public class Autori {
                 sb.append(alphabet.charAt(0));
             }
         }
-        
+        scanner.close();
         System.out.println(sb.toString());
+
     }
 }

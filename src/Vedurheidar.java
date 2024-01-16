@@ -37,5 +37,6 @@ public class Vedurheidar {
             System.out.println(road.name + (road.maxSpeed<currentWindSpeed ? " lokud" : " opin"));
         }
 
+        scanner.close();
     }
 }

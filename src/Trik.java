@@ -33,6 +33,8 @@ public class Trik {
                 break;
             }
         }
+
+        scanner.close();
     }
 
     private static void swamp(boolean [] cups, int i, int j){

@@ -13,6 +13,7 @@ public class Flatbokuveisla {
 
         int rest = (firstNumber % secondNumber);
 
+        scanner.close();
         System.out.println(rest);
     }
     

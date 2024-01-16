@@ -15,6 +15,7 @@ public class Carrots {
             words[i] = scanner.nextLine();
         }
 
+        scanner.close();
         System.out.print(number2);
     }
 }

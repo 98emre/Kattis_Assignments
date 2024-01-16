@@ -18,6 +18,7 @@ public class Tarifa {
             sum += numberOfMegaBytes;
         }
 
+        scanner.close();
         System.out.println(sum);
     }
 }

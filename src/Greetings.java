@@ -22,6 +22,7 @@ public class Greetings {
 
         sb.append(word.substring(word.length()-1));
 
+        scanner.close();
         System.out.println(sb.toString());
     }
     

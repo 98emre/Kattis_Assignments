@@ -15,6 +15,7 @@ public class Jackolanternjuxtaposition {
             sum *= scanner.nextInt();
         }
 
+        scanner.close();
         System.out.println(sum);
     }
 }

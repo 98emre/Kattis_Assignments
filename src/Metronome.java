@@ -10,6 +10,7 @@ public class Metronome {
 
         double number = scanner.nextDouble() / 4;
 
+        scanner.close();
         System.out.println(number);
     }
 }

@@ -10,6 +10,8 @@ public class R2 {
         int firstNumber = scanner.nextInt();
         int secondNumber = scanner.nextInt();
 
+        scanner.close();
+
         if(firstNumber <-1000 || firstNumber>1000 || secondNumber<-1000 || secondNumber>1000){
             throw new IllegalArgumentException("Number is out of bound");
         }

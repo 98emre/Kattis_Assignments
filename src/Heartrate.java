@@ -22,9 +22,9 @@ public class Heartrate {
             
             String result = String.format("%.4f %.4f %.4f", (bmp - abpm), bmp, (bmp + abpm));
             
+            scanner.close();
             System.out.println(result);
         }
 
-        scanner.close();
     }    
 }

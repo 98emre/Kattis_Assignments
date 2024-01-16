@@ -29,6 +29,8 @@ public class Batterup {
         }
 
         result = result / numberOfBats;
+        scanner.close();
+
         System.out.println(result);
     }
 }

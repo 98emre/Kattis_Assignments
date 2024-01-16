@@ -22,7 +22,8 @@ public class Message {
                 }
             }
         }
-
+        
+        scanner.close();
         System.out.println(sb.toString());
     }
 }

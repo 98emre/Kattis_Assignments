@@ -16,5 +16,7 @@ public class Oddities {
             choosenNumber = scanner.nextInt();
             System.out.println(choosenNumber + " is "+ (choosenNumber % 2 == 0? "even": "odd"));
         }
+
+        scanner.close();
     }
 }

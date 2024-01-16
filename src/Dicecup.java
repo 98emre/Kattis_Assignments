@@ -20,6 +20,7 @@ public class Dicecup {
             }
         }
 
+        scanner.close();
         printPropabilities(sumOccurrences, 0);
      
     }    

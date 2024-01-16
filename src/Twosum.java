@@ -13,6 +13,7 @@ public class Twosum {
 
         int sum = firstNumber + secondNumber;
 
+        scanner.close();
         System.out.println(sum);
     }
 }

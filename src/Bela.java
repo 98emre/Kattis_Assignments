@@ -17,6 +17,7 @@ public class Bela {
             sum += getCardValue(valueOfSuit, scanner.next());
         }
 
+        scanner.close();
         System.out.println(sum);
     }
 

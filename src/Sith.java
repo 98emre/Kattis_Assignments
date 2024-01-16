@@ -9,7 +9,6 @@ public class Sith {
         
         Scanner scanner = new Scanner(System.in);
         
-        String forceUser = scanner.nextLine();
         int a = scanner.nextInt();
         int b = scanner.nextInt();
         int result = scanner.nextInt();
@@ -25,6 +24,7 @@ public class Sith {
             }
        }
 
+       scanner.close();
        System.out.println(force);
     }
 }

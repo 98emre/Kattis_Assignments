@@ -35,7 +35,7 @@ public class Pet {
             }
         }
 
+        scanner.close();
         System.out.println(index +" "+ largestNumber);
-
     }
 }

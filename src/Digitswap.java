@@ -16,6 +16,7 @@ public class Digitswap {
 
         String swampNumbers = String.valueOf(digit2) + String.valueOf(digit1);
 
+        scanner.close();
         System.out.println(swampNumbers);   
     }    
 }

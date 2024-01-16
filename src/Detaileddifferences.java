@@ -18,6 +18,8 @@ public class Detaileddifferences {
             for(int j = 0; j<text.length(); j++){
                 sb.append(text.charAt(j) == text2.charAt(j) ? "." : "*");
             }
+
+            scanner.close();
             
             System.out.println(text);
             System.out.println(text2);

@@ -10,6 +10,8 @@ public class Tolvunarfraedingartelja {
         int number = scanner.nextInt();
         int sum = number-1;
 
+
+        scanner.close();
         System.out.println(sum);
     }
 }

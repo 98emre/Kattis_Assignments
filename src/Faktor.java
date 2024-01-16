@@ -14,6 +14,7 @@ public class Faktor {
 
         sum = 1+sum - numberOfArticles;
         
+        scanner.close();
         System.out.println(sum);
     }
 }

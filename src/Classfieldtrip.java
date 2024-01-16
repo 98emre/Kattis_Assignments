@@ -18,6 +18,7 @@ public class Classfieldtrip {
       
         String newText = new String(charArray);
 
+        scanner.close();
         System.out.println(newText);
     }
 }

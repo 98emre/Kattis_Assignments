@@ -1,7 +1,6 @@
 
 // https://open.kattis.com/problems/cprnummer
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class Cprnummer {

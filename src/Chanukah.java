@@ -17,5 +17,7 @@ public class Chanukah {
             int totalCandles = days + ((days * (days + 1)) / 2);
             System.out.println(dataNumber + " " + totalCandles);
         }
+
+        scanner.close();
     }
 }

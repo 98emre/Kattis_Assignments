@@ -19,6 +19,7 @@ public class Countthevowels {
             }   
         }
 
+        scanner.close();
         System.out.println(numberOfVowels);
     }
 }

@@ -26,8 +26,7 @@ public class OddEcho {
             }
         } 
             
+        scanner.close();
         System.out.println(sb.toString());
-
-
     }
 }
